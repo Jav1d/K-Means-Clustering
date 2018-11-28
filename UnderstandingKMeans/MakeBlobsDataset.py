@@ -26,6 +26,7 @@ ax1.scatter(data[0][:, 0], data[0][:, 1], c=labels, cmap='rainbow')
 
 ax2.set_title('Original')
 ax2.scatter(data[0][:, 0], data[0][:, 1], c=data[1], cmap='rainbow')
+plt.show()
 
 # NOTE: Colors are meaningless. So, the same colors in the both ax1 and ax2, doesn't mean they are the same cluster!
 
